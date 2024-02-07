@@ -1,0 +1,17 @@
+1) print Name from table Artist (all entries)
+    SELECT Artist.Name
+    FROM Artist
+
+2) print all date from table Invoice where BillingCountry is Germany
+    SELECT *
+    FROM Invoice
+    WHERE Invoice.BillingCountry="Germany"
+
+3) count how many albums are in the database
+    SELECT COUNT (Album.Title)
+    FROM Album
+
+4) how many customers are from France
+    SELECT COUNT (*)
+    FROM Customer
+    WHERE Customer.Country="France"
